@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "Name": "Violeta",
+      "Description": "Viola é um gênero botânico pertencente à família Violaceae. Inclui várias espécies popularmente conhecidas como violetas e amores-perfeitos.",
+      "price": 100.00,
+      "Family": "Violaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-violeta.jpg"
+    },
+    {
+      "id": 2,
+      "Name": "Azaleia",
+      "Description": "A azálea ou azaleia é um arbusto de flores classificadas no gênero dos rododendros, existem azaleias de folhas caducas e azaleias perenes. É um dos símbolos da cidade de São Paulo, assim declarado pelo prefeito Jânio Quadros.",
+      "price": 200.00,
+      "Family": "Ericaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-azaléias.jpg"
+    },
+    {
+      "id": 3,
+      "Name": "Begônia",
+      "Description": "A begônia está entre as flores para jardim mais comuns e de fácil cultivo. Existem mais de mil espécies e diversas variedades híbridas de begônias, cada uma com seu encanto. É uma planta muito apreciada pela beleza das suas flores e de suas folhas.",
+      "price": 150.00,
+      "Family": "Begoniaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-begônia.jpg"
+    },
+    {
+      "id": 4,
+      "Name": "Bromélias",
+      "Description": "As espécies deste gênero estão distribuidos pelas regiões tropicais dos continentes americanos, e sua principal característica é a de suas flores apresentarem um cálice muito profundo.O nome foi dado em homenagem ao botânico sueco Olof Bromelius (1639-1705).",
+      "price": 100.00,
+      "Family": "Bromeliaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-Bromélia.jpg"
+    },
+    {
+      "id": 5,
+      "Name": "Ciclanto",
+      "Description": "O ciclanto é uma planta de folhagem de aspecto amassado e muito ornamental. As folhas nascem na base formando densas touceiras. Cresce naturalmente sob a sombra das árvores em bosques, se desenvolvendo bem tanto em solos firmes e úmidos, quanto em solos alagados, podendo ser encontrado em margens de igarapés da Amazônia. Muito apreciada na decoração de ambientes internos, sendo cultivada em grandes vasos e se adaptando ao clima com ar-condicionado.",
+      "price": 150.00,
+      "Family": "Cyclanthaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-decora-sala.jpg"
+    },
+    {
+      "id": 6,
+      "Name": "Lírio da paz",
+      "Description": "O lírio da paz é uma das plantas para dentro de casa que se adapta ao clima quente e úmido. As folhas do Lírio da Paz são brilhantes, longas e de cor verde escura e apresentam um grande apelo estético e decorativo. A flor floresce duas vezes ao ano na ponta de uma haste longa.",
+      "price": 100.00,
+      "Family": "Araceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-lírio-da-paz.jpg"
+    },
+    {
+      "id": 7,
+      "Name": "Crisântemo ",
+      "Description": "O crisântemo são plantas para dentro de casa que possui flores coloridas, porém precisam de local com muita luz. ",
+      "price": 60.00,
+      "Family": "Asteraceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Plantas-para-dentro-de-casa-Crisântemo.jpg"
+    },
+    {
+      "id": 8,
+      "Name": "Espada de São Jorge",
+      "Description": "A Espada de São Jorge é usada predominantemente como planta ornamental, ao ar livre em climas mais quentes e em ambientes internos como planta de casa em climas mais frios. É popular como planta de casa porque é tolerante a níveis baixos de luz e irrigação irregular.",
+      "price": 50.00,
+      "Family": "Ruscaceae",
+      "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-Espada-de-São-Jorge.jpg"
+    }
+  ]
+}
