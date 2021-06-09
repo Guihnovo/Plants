@@ -11,6 +11,7 @@ export const Container = styled.div`
   border: 1px solid black;
   margin: 20px;
   background-color: #F6F6F6;
+  
 `
 
 export const ContainerImagem = styled.div`
@@ -20,11 +21,17 @@ export const ContainerImagem = styled.div`
   justify-items: center;
   border-radius: 5px;
   background-color: white;
+  
 `
 export const Img = styled.img`
-  max-width: 95%;
-  margin: 10px;
-  display: block;
+    margin: 10px;
+    width: 600px;
+    height: 450px;
+`
+export const ImgMiniaturas = styled.img`
+margin: 10px;
+width: 128px;
+height: 128px;
 `
 export const ContainerMiniatura = styled.div`
   display: grid;
@@ -38,14 +45,13 @@ export const Miniaturas = styled.div`
 `
 export const ContainerInfo = styled.div`
   display: grid;
-  grid-template-row: 60px 1fr 1fr;
-  column-gap: 10px;
   justify-items: center;
   background-color: white;
+  padding: 50px;
 `
 export const InfoPlanta = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   text-align: center;
   align-items: flex-start;
   border-bottom: ridge;
@@ -61,20 +67,27 @@ export const InfoPlanta2 = styled.div`
 export const InfoPlanta3 = styled.div`
   display: block;
 `
+export const Name = styled.h3`
+  font-size: 35px;
+  font-family: Jost;
+
+`
+export const Frete = styled.h2`
+  color: rgb(102,102,102);
+  margin-top: 50px;
+`
 export const Price = styled.h3`
   font-size: 30px;
   font-family: jost;
   font-weight: bold;
 `
 export const H4  = styled.h4`
-  font-size: 22px;
+  font-size: 23px;
   padding: 5px 11px;
-  text-align: left;
   margin: 0px 15px;
   background: lightgreen;
   border-radius: 5px;
 `
-
 export const Button = styled.button`
   background-color: #32B768;
   font-family: Jost;
@@ -93,15 +106,24 @@ export const ContainerTecnico = styled.div`
   margin-top: 43px;
   padding-left: 53px;
 `
-
 export const Inputt = styled.input`
-  width: 16rem;
-  height: 2rem;
+  width: 17rem;
+  height: 3rem;
   margin-right: 20px;
+`
+
+export const ButtonCep = styled.button`
+  background-color: #E8E8E8;
+  font-family: Jost;
+  padding: 13px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 `
 export const H2 = styled.h2`
   font-weight: bold;
-  font-size: 26px;
+  font-size: 28px;
   padding: 20px 0px 10px 10px;
   text-family: Jost;
   color: rgb(102, 102, 102);
@@ -110,6 +132,8 @@ export const SpanContainer = styled.span`
   background: rgb(255, 255, 255);
   word-break: break-word;
   padding: 30px 15px 15px;
-  font-size: 14px;
+  font-size: 20px;
+  font-family: jost;
+  display: flex;
   color: rgb(102, 102, 102);
 `

@@ -1,4 +1,3 @@
-import React from 'react';
 import plants from '../../image/plants.png';
 import { Container, ImageHeader, Image, Title } from './styled'
 

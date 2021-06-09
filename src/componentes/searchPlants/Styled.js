@@ -6,7 +6,6 @@ export const Container = styled.div`
     justify-content: center;
     padding-top: 40px;
 `
-
 export const Input = styled.input`
     width: 310px;
     height: 35px;
