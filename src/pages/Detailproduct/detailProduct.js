@@ -14,7 +14,11 @@ import {
   InfoPlanta2,
   Button,
   InfoPlanta3,
-  Inputt
+  Frete,
+  Inputt,
+  ImgMiniaturas,
+  ButtonCep,
+  Name
 } from "./styled"
 import africanViolet from '../../image/Plants/african-violet.png';
 
@@ -31,78 +35,64 @@ export default function DetailProduct() {
   
   useEffect(() => {
     const choosedPlants = products.find((item) => {
-      if(item.id === pathParams.name){
-        return item
-      } 
-      return item
+     return item.id === Number(pathParams.id)
     })
-    console.log(choosedPlants)
     setPlants(choosedPlants)
-  }, [products, pathParams.name])
-
+  }, [products, pathParams.id])
 
   return (
       <Container>
         <ContainerImagem>
           <Miniaturas>
-            <Img src="https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-violeta.jpg" alt="Flor chamada violeta"/>
+            <Img src={plants && plants.ImageUrl} alt={plants && plants.Name}/>
           </Miniaturas>
           <ContainerMiniatura>
             <Miniaturas>
-              <img src={africanViolet} alt="Ilustração violeta flor"/>
+              <ImgMiniaturas src={plants && plants.Image2} alt={plants && plants.Name}/>
             </Miniaturas>
             <Miniaturas>
-              <img src={africanViolet} alt="Ilustração violeta flor"/>
+              <ImgMiniaturas src={plants && plants.Image3} alt={plants && plants.Name}/>
             </Miniaturas>
             <Miniaturas>
-              <img src={africanViolet} alt="Ilustração violeta flor"/>
+              <ImgMiniaturas src={africanViolet} alt="Ilustração violeta flor"/>
             </Miniaturas>
             <Miniaturas>
-              <img src={africanViolet} alt="Ilustração violeta flor"/>
+              <ImgMiniaturas src={africanViolet} alt="Ilustração violeta flor"/>
             </Miniaturas>
           </ContainerMiniatura>
         </ContainerImagem>
-       
+  
         <ContainerInfo>
           <InfoPlanta>
-            <h3>MAÇÃ JULIETA P/ VASOS - MUDA ENXERTADA - PRODUZ EM VASOS E CLIMAS QUENTES</h3>
-            <H4>Frete gratis</H4>
+            <Name>{plants && plants.Name}</Name>
+            <H4>Frete grátis</H4>
           </InfoPlanta>
           <InfoPlanta2>
-            <Price>R$99,00</Price>
+            <Price>R$ {plants && plants.price},00</Price>
             <h4>em até 10x sem juros no cartão de crédito</h4>
             <div>
               <Button>COMPRAR</Button>
             </div>
           </InfoPlanta2>
           <InfoPlanta3>
-            <h2>Calcular frete</h2>
-            <Inputt placeholder="DIGITE O CEP"></Inputt> <button>OK</button>
+            <Frete>Calcular frete</Frete>
+            <Inputt placeholder="DIGITE O CEP"></Inputt> <ButtonCep>OK</ButtonCep>
           </InfoPlanta3>
         </ContainerInfo>
         <ContainerTecnico>
-          <H2> Informações da Planta </H2>
+          <H2> Sobre a Planta </H2>
           <SpanContainer>
-            <span>Viola é um gênero botânico pertencente à família Violaceae. Inclui várias espécies popularmente conhecidas como violetas e amores-perfeitos.</span>
+            <span>{plants && plants.Description}</span>
           </SpanContainer>
           <SpanContainer>
-            <table width="100%" border="1px solid black" border-radius='10px'>
-              <h5>Nome: uahsduasdhuashd</h5>
-              <h5>Familia: uahsduasdhuashd</h5>
-              <h5>Altura: uahsduasdhuashd</h5>
-              <h5>Quantidade: uahsduasdhuashd</h5>
-              <h5>Nome: uahsduasdhuashd </h5>
+            <table width="100%">
+              <h5>Nome: {plants && plants.Name}</h5>
+              <h5>Familia: {plants && plants.Family}</h5>
+              <h5>Altura: {plants && plants.Altura}</h5>
+              <h5>Quantidade disponível: {plants && plants.Quantidade}</h5>
             </table>
           </SpanContainer>
-        </ContainerTecnico>
-        <>
-         
-        </>
-       
-  
+        </ContainerTecnico>  
       </Container>
-      
-      
-      
   )
 }

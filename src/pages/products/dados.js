@@ -1,9 +1,7 @@
-import React from 'react'
-
 const product = {
   "products": [{
   "id": 1,
-  "Name": "Violeta",
+  "Name": "Flor Violeta",
   "Description": "Viola é um gênero botânico pertencente à família Violaceae. Inclui várias espécies popularmente conhecidas como violetas e amores-perfeitos.",
   "price": 100.00,
   "Family": "Violaceae",
@@ -14,7 +12,7 @@ const product = {
   "Image3": "https://1.bp.blogspot.com/-RkP7oUI25xA/VvLhaXXPKlI/AAAAAAAAI3E/qTUTbNizQ9Uw5_zorXYVso9807Q2Blhng/s1600/Viola%2Bodarat757.jpg"
 }, {
   "id": 2,
-  "Name": "Azaleia",
+  "Name": "Flor Azaleia",
   "Description": "A azálea ou azaleia é um arbusto de flores classificadas no gênero dos rododendros, existem azaleias de folhas caducas e azaleias perenes. É um dos símbolos da cidade de São Paulo, assim declarado pelo prefeito Jânio Quadros.",
   "price": 200.00,
   "Family": "Ericaceae",
@@ -50,7 +48,7 @@ const product = {
 },
 {
   "id": 5,
-  "Name": "Ciclanto",
+  "Name": "Planta Ciclanto",
   "Description": "O ciclanto é uma planta de folhagem de aspecto amassado e muito ornamental. As folhas nascem na base formando densas touceiras. Cresce naturalmente sob a sombra das árvores em bosques, se desenvolvendo bem tanto em solos firmes e úmidos, quanto em solos alagados, podendo ser encontrado em margens de igarapés da Amazônia. Muito apreciada na decoração de ambientes internos, sendo cultivada em grandes vasos e se adaptando ao clima com ar-condicionado.",
   "price": 150.00,
   "Family": "Cyclanthaceae",
@@ -63,7 +61,7 @@ const product = {
 {
   "id": 6,
   "Name": "Lírio da paz",
-  "Description": "O lírio da paz é uma das plantas para dentro de casa que se adapta ao clima quente e úmido. As folhas do Lírio da Paz são brilhantes, longas e de cor verde escura e apresentam um grande apelo estético e decorativo. A flor floresce duas vezes ao ano na ponta de uma haste longa.",
+  "Description": "O Lírio da paz é uma das plantas para dentro de casa que se adapta ao clima quente e úmido. As folhas do Lírio da Paz são brilhantes, longas e de cor verde escura e apresentam um grande apelo estético e decorativo. A flor floresce duas vezes ao ano na ponta de uma haste longa.",
   "price": 100.00,
   "Family": "Araceae",
   "Altura": "1 m",

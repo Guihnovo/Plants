@@ -13,7 +13,7 @@ import { Container, Img, PlantName, ImgPriceButton, Button} from './Styled'
                     <h3>{produto.Name}</h3>
             </PlantName>
             <ImgPriceButton>
-                <Img src={produto.ImageUrl} alt="Três vasos pequenos de cores violeta, com uma janale ao fundo" />
+                <Img src={produto.ImageUrl} alt={produto.Name} />
                 <h4>R$ {produto.price},00 </h4>
                 <Link to={ `/detalhes/${produto.id}`}>
                     <Button> 
