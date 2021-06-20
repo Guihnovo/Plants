@@ -93,6 +93,42 @@ const product = {
   "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-Espada-de-São-Jorge.jpg",
   "Image2": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-outras-plantas.jpg",
   "Image3": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-suculenta-em-prateleira.jpg"
+},
+{
+  "id": 9,
+  "Name": "Espada de São Jorge",
+  "Description": "A Espada de São Jorge é usada predominantemente como planta ornamental, ao ar livre em climas mais quentes e em ambientes internos como planta de casa em climas mais frios. É popular como planta de casa porque é tolerante a níveis baixos de luz e irrigação irregular.",
+  "price": 50.00,
+  "Family": "Ruscaceae",
+  "Altura": "1 m",
+  "Quantidade": 8,
+  "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-Espada-de-São-Jorge.jpg",
+  "Image2": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-outras-plantas.jpg",
+  "Image3": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-suculenta-em-prateleira.jpg"
+},
+{
+  "id": 10,
+  "Name": "Espada de São Jorge",
+  "Description": "A Espada de São Jorge é usada predominantemente como planta ornamental, ao ar livre em climas mais quentes e em ambientes internos como planta de casa em climas mais frios. É popular como planta de casa porque é tolerante a níveis baixos de luz e irrigação irregular.",
+  "price": 50.00,
+  "Family": "Ruscaceae",
+  "Altura": "1 m",
+  "Quantidade": 8,
+  "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-Espada-de-São-Jorge.jpg",
+  "Image2": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-outras-plantas.jpg",
+  "Image3": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-suculenta-em-prateleira.jpg"
+},
+{
+  "id": 11,
+  "Name": "Espada de São Jorge",
+  "Description": "A Espada de São Jorge é usada predominantemente como planta ornamental, ao ar livre em climas mais quentes e em ambientes internos como planta de casa em climas mais frios. É popular como planta de casa porque é tolerante a níveis baixos de luz e irrigação irregular.",
+  "price": 50.00,
+  "Family": "Ruscaceae",
+  "Altura": "1 m",
+  "Quantidade": 8,
+  "ImageUrl": "https://imagens-revista.vivadecora.com.br/uploads/2018/11/Planta-para-dentro-de-casa-Espada-de-São-Jorge.jpg",
+  "Image2": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-outras-plantas.jpg",
+  "Image3": "https://imagens-revista.vivadecora.com.br/uploads/2017/09/espada-de-sao-jorge-com-suculenta-em-prateleira.jpg"
 }
 ]
 }

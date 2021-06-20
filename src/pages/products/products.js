@@ -2,6 +2,7 @@ import ProductCard from '../../componentes/productCard/ProductCard'
 import SearchPlants from '../../componentes/searchPlants/SearchPlants'
 import { Container, ContainerProduct} from "./styled"
 import product from './dados'
+import Category from '../../componentes/Category/category'
 
   export default function GetProducts () {
 
@@ -19,10 +20,13 @@ import product from './dados'
     })
        
   }
+    
+   
   
   return (
+
       <Container>
-        <SearchPlants/>
+        <Category/>
         <ContainerProduct>
         {pegarProdutos.map((produto) =>  (
           <ProductCard 
