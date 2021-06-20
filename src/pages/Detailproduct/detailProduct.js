@@ -25,7 +25,7 @@ import africanViolet from '../../image/Plants/african-violet.png';
 import product from '../../pages/products/dados'
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from "react";
-
+import Category from "../../componentes/Category/category";
 
 export default function DetailProduct() {
   
@@ -41,6 +41,8 @@ export default function DetailProduct() {
   }, [products, pathParams.id])
 
   return (
+    <>  
+    <Category/>
       <Container>
         <ContainerImagem>
           <Miniaturas>
@@ -94,5 +96,6 @@ export default function DetailProduct() {
           </SpanContainer>
         </ContainerTecnico>  
       </Container>
+      </>
   )
 }
